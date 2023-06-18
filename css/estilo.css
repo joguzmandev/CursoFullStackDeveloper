@@ -1,0 +1,22 @@
+.container{
+    width: 500px;
+    display: flex;
+    justify-content: start;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    background-color: rgb(69, 69, 133);
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box{
+    width: 90px;
+    min-width: 90px;
+    height: 100px;
+    margin: 10px;
+    padding: 0 auto;
+    text-align:center;
+    color:white;
+    background-color:rgb(242, 164, 205);
+    border-radius: 5px;
+}
